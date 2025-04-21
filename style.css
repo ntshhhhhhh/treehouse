@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'GTCinetypeTrial';
+    src: url('./Grilli-Type-Trial-Fonts-2025-02\ \(1\).zip') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'GTCinetypeTrial', sans-serif;
+}
+
+.special_offer {
+    background-color: rgba(80, 115, 95, 1); 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 0.5px;
+  }
+.header{
+    background: url('./Untitled\ \(Copy\).zip') center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.menu {
+    display: flex;
+}
+  
+  @media (max-width: 768px) {
+    .special_offer {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .special_offer {
+      font-size: 10px;
+    }
+  }
